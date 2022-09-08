@@ -1,0 +1,35 @@
+.blog {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.blog__title {
+  color: #000;
+  font-weight: 300;
+}
+
+.blog__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__item {
+  display: flex;
+  max-width: 100%;
+  width: 800px;
+  margin: 1.5em auto;
+}
+
+.blog__item-title {
+  font-weight: 300;
+}
+
+.blog__item-date {
+  color: #5e5e5e;
+}
+
+@media (max-width: 600px) {
+  .blog__item img {
+    display: none;
+  }
+}
